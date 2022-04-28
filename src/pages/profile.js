@@ -1,5 +1,5 @@
 export const Profile = () => {
-    return(<div>
+    return(<div className="profile-page">
         Profile
     </div>)
 }
