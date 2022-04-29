@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { auth } from "./firebase/firebase-config";
+import { auth } from "../firebase/firebase-config";
 import {RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
 export const Login = () => {
 

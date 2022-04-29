@@ -5,7 +5,7 @@ export const About = () => {
         <div className="about-page">
             <h1>About</h1>
             <nav>
-                <Link to='/about'>About</Link>
+                <Link to='/'>About</Link>
             </nav>
             
         </div>
