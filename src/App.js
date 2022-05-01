@@ -1,8 +1,5 @@
 import React from "react";
-import { ReactDOM } from "react";
-import { Routes, Route, Link} from "react-router-dom";
-import { onAuthStateChanged } from "firebase/auth";
-import { About, Login, Profile, Home } from "./pages";
+import { Link, Outlet } from "react-router-dom";
 import "./App.css";
 
 function App() {
@@ -19,7 +16,13 @@ function App() {
   // });
   return (
     <div className="App">
-      
+      <nav>
+        <Link to='/home'>Home</Link>
+        <Link to={'/about'}>About</Link>
+        <Link to={'/login'}>Login</Link>
+        <Link to={'/Profile'}>Profile</Link>
+      </nav>
+      <Outlet></Outlet>
     </div>
   );
 }

@@ -1,10 +1,19 @@
 .App {
+  box-sizing: border-box;
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  /* justify-content: center; */
   align-items: center;
-  
+}
+
+.App a {
+  margin: 30px;
+}
+
+.nested {
+  margin: 20px;
 }
 
 .field{

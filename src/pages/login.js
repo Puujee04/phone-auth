@@ -62,7 +62,7 @@ export const Login = () => {
   };
 
     return(
-        <div className="login-page">
+        <div className="login-page nested">
             {expandForm ? (
         <div className="field">
           <h3>Phone Number:</h3>

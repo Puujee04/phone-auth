@@ -1,4 +1,4 @@
 export { About } from "./About";
-export { Login } from "./login";
-export { Profile } from "./profile";
+export { Login } from "./Login";
+export { Profile } from "./Profile";
 export { Home } from "./Home";
